@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class SumTheDigits {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter a number between 0 and 1000: ");
+		Scanner input = new Scanner(System.in);
+		
+		String digit = input.toString();
+		int sum = 0;
+		int len = digit.length();
+		for(int i = 0; i < len; i++) {
+			int num = (Integer)digit % 10;
+			sum += num;
+			(int)digit /= 10;
+		}
+		
+		
+	}
+
+}

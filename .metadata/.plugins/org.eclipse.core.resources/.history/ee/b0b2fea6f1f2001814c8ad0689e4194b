@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ComputeChange {
+
+	public static void main(String[] args) {
+		//Prompt user to enter amounth as a decimal number 15.24
+		System.out.println("Enter the amounth of money to change: ");
+		Scanner input = new Scanner(System.in);
+		
+		double amounth = input.nextDouble();
+		
+		int remainingAmounth = (int)amounth * 100;
+		
+		int numberOfDollars = remainingAmounth / 100;
+		remainingAmounth = remainingAmounth % 100;
+		
+		int numberOfQuarters = remainingAmounth / 25;
+		
+		
+	}
+}

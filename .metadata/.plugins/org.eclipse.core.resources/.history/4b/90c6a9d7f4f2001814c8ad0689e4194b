@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class RadiusAndLengthOfCilinder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter the length and radius of a cilinder: ");
+		double lengthOfCilinder = input.nextDouble();
+		double radius = input.nextDouble();
+		double areaOfCilinder = radius * radius * Math.PI;
+		double volumeOfCilinder = areaOfCilinder * lengthOfCilinder;
+		
+		System.out.println("The area of cilinder is: " + areaOfCilinder );
+		System.out.println("The volume of the cilinder is: " + volumeOfCilinder);
+
+}

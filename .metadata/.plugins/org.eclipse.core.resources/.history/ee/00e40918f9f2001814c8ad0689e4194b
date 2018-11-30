@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class FindNumberOfYears {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		int minutes = input.nextInt();
+		
+		int year = 365 * days;
+		int days = 24 * hours;
+		int hours = 60 * minutes;
+		
+	}
+
+}

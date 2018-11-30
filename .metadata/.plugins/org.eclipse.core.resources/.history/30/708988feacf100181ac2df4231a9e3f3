@@ -1,0 +1,16 @@
+/**
+ * File: Computeaverage.java
+ * 
+ * Display average of 3 numbers
+ */
+import java.util.Scanner;
+
+public class ComputeAverage {
+
+	
+		public static void main(String[] args) {
+		i = j = k = 2;
+		System.out.println(k + " " + j + " " + i);
+		}
+	
+}

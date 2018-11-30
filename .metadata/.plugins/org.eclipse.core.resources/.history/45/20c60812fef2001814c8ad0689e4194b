@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class compoundValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Entry the mountly saving amounth: ");
+		double amounthSaving = input.nextDouble();
+		
+		double account = 0;
+		
+		for(int i = 0; i < 6; i++) {
+			double account = amounthSaving * (1 + 0.00417);
+			System.out.println(accountMounthly);
+			account += accountMounthly;
+			System.out.println(account);
+		}
+		
+		
+		
+		System.out.println("After six mounth's the account value is: " + account);
+		
+	}
+
+}

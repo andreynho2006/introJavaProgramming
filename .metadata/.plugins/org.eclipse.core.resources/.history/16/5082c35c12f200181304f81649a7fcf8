@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class ComputeLoan {
+	
+	public static void main(String[] args) {
+		//Create a new scanner
+		Scanner input = new Scanner(System.in);
+		
+		
+	}
+}

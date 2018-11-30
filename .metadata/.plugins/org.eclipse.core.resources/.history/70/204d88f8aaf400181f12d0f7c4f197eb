@@ -1,0 +1,16 @@
+package selections;
+
+public class RandomMounth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int mounth = (int) Math.random() * 12;
+		
+		switch(mounth) {
+			case 1: System.out.println("January");
+					break;
+			case 2: 
+		}
+	}
+
+}

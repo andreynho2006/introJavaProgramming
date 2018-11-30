@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class ComputeLoan {
+	
+	public static void main(String[] args) {
+		//Create a new Scanner
+		Scanner input = new Scanner(System.in);
+		
+		//enter anual interest rate in percentage. e.g, 7.25%
+		double anualInterest = input.nextDouble();
+		
+	}
+}

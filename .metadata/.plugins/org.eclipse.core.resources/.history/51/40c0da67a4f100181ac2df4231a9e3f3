@@ -1,0 +1,12 @@
+package demo;
+
+public class ComputeArea {
+
+	public static void main(String[] args) {
+		//Step 1: Read in Radius
+		
+		//Step 2: Compute area
+		
+		//Step 3: Display the area
+	}
+}

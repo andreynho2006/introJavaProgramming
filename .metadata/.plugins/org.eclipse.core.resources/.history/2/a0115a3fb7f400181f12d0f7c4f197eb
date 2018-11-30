@@ -1,0 +1,21 @@
+package selections;
+import java.util.Scanner;
+
+public class OrderTwoCities {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter the firstcity: ");
+		String city1 = input.nextLine();
+		System.out.println("Enter second city:")
+		String city2 = input.nextLine();
+		
+		
+		
+		
+		input.close();
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class ShowCurrentTime {
+	
+	public static void main(String[] args) {
+		double totalMilliseconds = System.currentTimeMillis();
+		
+		double totalSeconds = totalMiliseconds / 1000;
+	}
+}

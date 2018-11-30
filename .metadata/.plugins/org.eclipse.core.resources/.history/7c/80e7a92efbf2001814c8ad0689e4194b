@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class EnergyHeatWater {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter the amouth of water in kilograms: ");
+		double water = input.nextDouble();
+		
+		
+	}
+
+}

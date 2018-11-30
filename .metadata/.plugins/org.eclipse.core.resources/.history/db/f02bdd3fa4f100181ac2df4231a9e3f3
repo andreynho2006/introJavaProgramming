@@ -1,0 +1,8 @@
+package demo;
+
+public class ComputeArea {
+
+	public static void main(String[] args) {
+		
+	}
+}

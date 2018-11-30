@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class FindNumberOfYears {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		int minutes = input.nextInt();
+		
+		int minutesInYear = 365 * 24 * 60;
+		int minutesInDays = 24 * 60;
+		int minutesInHours = 60;
+		
+		int years = minutes / minutesInYear;
+		int days = 0
+		
+		System.out.println(" minutes is aproximatly " + years + " and " + days + " days.");
+		
+	}
+
+}

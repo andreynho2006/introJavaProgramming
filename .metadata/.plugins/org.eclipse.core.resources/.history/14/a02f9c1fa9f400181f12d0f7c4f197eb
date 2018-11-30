@@ -1,0 +1,23 @@
+package selections;
+
+import java.util.Scanner;
+
+public class QuadraticEquation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("enter a, b and c: ");
+		
+		double num1 = input.nextDouble();
+		double num2 = input.nextDouble();
+		double num3 = input.nextDouble();
+		
+		double formula = Math.pow(num2, 2) - (4 * num1 * num3);
+		route1 = - num2 + 
+		
+		System.out.println("The equation has " +   + "");
+	}
+
+}

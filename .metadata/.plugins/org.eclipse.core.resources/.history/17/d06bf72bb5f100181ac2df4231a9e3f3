@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class SalesTax {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter price amouth: ");
+		double purchaseAmouth = input.nextDouble();
+		
+		double tax = purchaseAmouth * 0.06;
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class ShowCurrentTime {
+	
+	public static void main(String[] args) {
+		long totalMilliseconds = System.currentTimeMillis();
+		
+		long totalSeconds = totalMilliseconds / 1000;
+		
+		long currentSeconds = totalSeconds / 60;
+		
+		totalMinutes = totalSecods / 60;
+		
+		
+	}
+}

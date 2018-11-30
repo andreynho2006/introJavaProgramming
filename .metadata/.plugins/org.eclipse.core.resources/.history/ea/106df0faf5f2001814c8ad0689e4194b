@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class FeetToMeters {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter a value in foot: ");
+		double foot = input.nextDouble();
+		
+		double meters = foot * 0.305;
+		
+		System.out.println(foot + " foot is " + meters + " meters.");
+	}
+}

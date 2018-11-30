@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ComputeChange {
+
+	public static void main(String[] args) {
+		//Prompt user to enter amounth as a decimal number 15.24
+		Scanner input = new Scanner(System.in);
+		
+		double amounth = input.nextDouble();
+		
+		amounth *= 100;
+		
+		int dollars = (int)amounth / 100;
+		
+		int cents = (amounth) % 100;
+	}
+}
