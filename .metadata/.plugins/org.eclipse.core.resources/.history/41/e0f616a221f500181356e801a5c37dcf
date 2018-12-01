@@ -1,8 +1,8 @@
 /**
  * File: AverageAcceleration.java
  * 
- *  Program that request the 2 velocity and a time and
- *  to display the average acceleration
+ *  Program that request the 2 points for a trinagle and
+ *  to display the area
  *  
  */
 import java.util.Scanner;
