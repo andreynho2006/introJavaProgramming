@@ -1,11 +1,5 @@
-/**
- * File: CelsiusToFahrenheit.java
- * 
- *  Program that request the degree in celsius and
- *  display the degree in fahrenheit
- *  
- */
 import java.util.Scanner;
+
 
 public class CelsiusToFahrenheit {
 
