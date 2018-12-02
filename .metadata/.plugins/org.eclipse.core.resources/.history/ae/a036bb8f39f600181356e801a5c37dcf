@@ -1,0 +1,17 @@
+/**
+ * File: GuessBirthday.java
+ * 
+ *  
+ */
+import java.util.Scanner;
+
+package selections;
+
+public class GreatCircleDistance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

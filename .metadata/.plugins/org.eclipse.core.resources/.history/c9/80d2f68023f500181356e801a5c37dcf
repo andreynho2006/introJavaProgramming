@@ -1,0 +1,16 @@
+/**
+ * File: CheckBooleans.java
+ * 
+ *  
+ */
+
+package selections;
+
+public class CheckBooleans {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

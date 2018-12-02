@@ -1,0 +1,17 @@
+/**
+ * File: CheckBooleans.java
+ * 
+ *  
+ */
+package selections;
+
+import java.util.Scanner;
+
+public class GuessBirthday {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
